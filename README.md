@@ -19,6 +19,16 @@ Hepatitis B Surface Antigen | nominal | HBsAg | (1=Yes;0=No) | 10.3 | B형간염
 ## Analysis
 For detailed description and analysis on the dataset, see [ML]HW2_Report.pdf   
 
+## Environment
+All my experiments were conducted on following environment:   
+- Python 3.7.4
+- Scikit-learn 0.23.1
+- pandas 1.0.5
+- numpy 1.19.0
+- matplotlib 3.2.2
+- seaborn 0.10.1
+- missingno 0.4.2
+
 ## How to run
 All the charts and results on [ML]HW2_Report.pdf are from hcc_survivor.ipynb.   
 To run this:   
