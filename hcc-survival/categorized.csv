@@ -1,0 +1,51 @@
+name,type,abbreviate,range,missing value(%)
+Gender,nominal,Gender,(1=Male;0=Female),0,
+Symptoms,nominal,Symptoms,(1=Yes;0=No),10.91
+Alcohol,nominal,Alcohol,(1=Yes;0=No),0
+Hepatitis B Surface Antigen,nominal,HBsAg,(1=Yes;0=No),10.3
+Hepatitis B e Antigen,nominal,HBeAg,(1=Yes;0=No),23.64
+Hepatitis B Core Antibody,nominal,HBcAb,(1=Yes;0=No),14.55
+Hepatitis C Virus Antibody,nominal,HCVAb,(1=Yes;0=No),5.45
+Cirrhosis,nominal,Cirrhosis,(1=Yes;0=No),0
+Endemic Countries,nominal,Endemic,(1=Yes;0=No),23.64
+Smoking,nominal,Smoking,(1=Yes;0=No),24.85
+Diabetes,nominal,Diabetes,(1=Yes;0=No),1.82
+Obesity,nominal,Obesity,(1=Yes;0=No),6.06
+Hemochromatosis,nominal,Hemochro,(1=Yes;0=No),13.94
+Arterial Hypertension,nominal,AHT,(1=Yes;0=No),1.82
+Chronic Renal Insufficiency,nominal,CRI,(1=Yes;0=No),1.21
+Human Immunodeficiency Virus,nominal,HIV,(1=Yes;0=No),8.48
+Nonalcoholic Steatohepatitis,nominal,NASH,(1=Yes;0=No),13.33
+Esophageal Varices,nominal,Varices,(1=Yes;0=No),31.52
+Splenomegaly,nominal,Spleno,(1=Yes;0=No),9.09
+Portal Hypertension,nominal,PHT,(1=Yes;0=No),6.67
+Portal Vein Thrombosis,nominal,PVT,(1=Yes;0=No),1.82
+Liver Metastasis,nominal,Metastasis,(1=Yes;0=No),2.42
+Radiological Hallmark,nominal,Hallmark,(1=Yes;0=No),1.21
+Age at diagnosis,integer,Age,20-93,0
+Grams of Alcohol per day,continuous,Grams/day,0-500,29.09
+Packs of cigarets per year,continuous,Packs/year,0-510,32.12
+Performance Status*,ordinal,PS,[0|1|2|3|4|5],0,
+Encephalopathy degree*,ordinal,Encephalopathy,[1|2|3],0.61
+Ascites degree*,ordinal,Ascites,[1|2|3],1.21
+International Normalised Ratio*,continuous,INR,0.84-4.82,2.42
+Alpha-Fetoprotein (ng/mL),continuous,AFP,1.2-1810346,4.85
+Haemoglobin (g/dL),continuous,Hemoglobin,5-18.7,1.82
+Mean Corpuscular Volume (fl),continuous,MCV,69.5-119.6,1.82
+Leukocytes(G/L),continuous,Leucocytes,2.2-13000,1.82 
+Platelets (G/L),continuous,Platelets,1.71-459000,1.82
+Albumin (mg/dL),continuous,Albumin,1.9-4.9,3.64
+Total Bilirubin(mg/dL),continuous,Total Bil,0.3-40.5,3.03
+Alanine transaminase (U/L),continuous,ALT,11-420,2.42
+Aspartate transaminase (U/L),continuous,AST,17-553,1.82
+Gamma glutamyl transferase (U/L),continuous,GGT,23-1575,1.82
+Alkaline phosphatase (U/L),continuous,ALP,1.28-980,1.82
+Total Proteins (g/dL),continuous,TP,3.9-102,6.67
+Creatinine (mg/dL),continuous,Creatinine,0.2-7.6,4.24
+Number of Nodules,integer,Nodules,0-5,1.21
+Major dimension of nodule (cm),continuous,Major Dim,1.5-22,12.12
+Direct Bilirubin (mg/dL),continuous,Dir. Bil,0.1-29.3,26.67
+Iron (mcg/dL),continuous,Iron,0-244,47.88
+Oxygen Saturation (%),continuous,Sat,0-126,48.48
+Ferritin (ng/mL),continuous,Ferritin,0-2230,48.48
+Class Attribute,nominal,Class,(1=lives;0=dies),0
